@@ -43,7 +43,7 @@ BOOL Addition(float fNum1,float fDen1,float fNum2,float fDen2,float *pAns1,float
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-BOOL Subtraction(float fNum1,float fNum2,float fDen1,float fDen2,float *pAns1,float *pAns2)
+BOOL Subtraction(float fNum1,float fDen1,float fNum2,float fDen2,float *pAns1,float *pAns2)
 {
     if((fDen1==0) || (fDen2==0))
     {
